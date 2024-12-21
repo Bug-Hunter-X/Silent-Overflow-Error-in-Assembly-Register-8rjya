@@ -1,0 +1,3 @@
+# Silent Overflow Bug in Assembly
+
+This repository demonstrates a subtle and easily missed bug in assembly language related to register overflow.  The `bug.asm` file contains code that can lead to an incorrect result due to a silent integer overflow.  The `bugSolution.asm` file offers a corrected version with overflow checking. This is a common pitfall in low-level programming where understanding register sizes and potential overflow is crucial.
